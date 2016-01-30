@@ -1,0 +1,142 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 940px;
+	margin: auto;
+	padding: 0 auto;
+}
+
+.jumbotron {
+	background: url(../img/piano-background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 800px;
+}
+
+.header {
+	background-color: #333;
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+}
+
+.nav li {	
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;	
+}
+
+.nav a:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+.main {
+	position: relative;
+	top: 180px;
+	text-align: center;
+}
+
+.main h1 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 70px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #333;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 16px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-primary:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+/* corpo do projeto */
+
+.btn-default {
+	border: 1px solid #333;
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.btn-default:hover {
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+}
+
+.supporting  {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.supporting .col {
+	float: left;
+	width: 32%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.supporting  h2{
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.supporting p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 50px;
+	margin-bottom: 40px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* footer of page */
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0 65px;
+}
+
+.footer p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+}
